@@ -10,7 +10,4 @@ def solution(sss):
         if stack<0:
             return False
         
-    if not stack:
-        return True
-    else:
-        return False
+    return stack==0
